@@ -97,4 +97,4 @@ with gr.Blocks() as demo:
                         yield text
 
 
-demo.queue().launch(debug=True)
+demo.queue().launch(debug=True,share=False)
